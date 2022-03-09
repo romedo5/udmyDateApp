@@ -1,17 +1,17 @@
 {
   "format": 1,
   "restore": {
-    "D:\\Udamly Projects\\DatingApp\\API\\API.csproj": {}
+    "D:\\Udamly Projects\\DatingApp\\api\\API.csproj": {}
   },
   "projects": {
-    "D:\\Udamly Projects\\DatingApp\\API\\API.csproj": {
+    "D:\\Udamly Projects\\DatingApp\\api\\API.csproj": {
       "version": "1.0.0",
       "restore": {
-        "projectUniqueName": "D:\\Udamly Projects\\DatingApp\\API\\API.csproj",
+        "projectUniqueName": "D:\\Udamly Projects\\DatingApp\\api\\API.csproj",
         "projectName": "API",
-        "projectPath": "D:\\Udamly Projects\\DatingApp\\API\\API.csproj",
+        "projectPath": "D:\\Udamly Projects\\DatingApp\\api\\API.csproj",
         "packagesPath": "C:\\Users\\Mohmed Ahmed\\.nuget\\packages\\",
-        "outputPath": "D:\\Udamly Projects\\DatingApp\\API\\obj\\",
+        "outputPath": "D:\\Udamly Projects\\DatingApp\\api\\obj\\",
         "projectStyle": "PackageReference",
         "configFilePaths": [
           "C:\\Users\\Mohmed Ahmed\\AppData\\Roaming\\NuGet\\NuGet.Config",

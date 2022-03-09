@@ -6,19 +6,25 @@ using Microsoft.AspNetCore.Mvc;
 using API.Data;
 using API.Entities;
 using Microsoft.EntityFrameworkCore;
+using Microsoft.AspNetCore.Cors;
 
 namespace API.Controllers
 {
+    [EnableCors]
     [ApiController]
     [Route("api/[controller]")]
+
+    
     public class Userscontroller : ControllerBase
     {
+
+
         private readonly DataContext context;
         public Userscontroller(DataContext context)
         {
             this.context = context;
         }
-
+ 
         [HttpGet]
         public async Task<ActionResult<IEnumerable<AppUsers>>> getAllUsers()
         {
