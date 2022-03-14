@@ -38,7 +38,6 @@ D:\Udamly Projects\DatingApp\API\bin\Debug\net5.0\Microsoft.IdentityModel.Loggin
 D:\Udamly Projects\DatingApp\API\bin\Debug\net5.0\Microsoft.IdentityModel.Protocols.dll
 D:\Udamly Projects\DatingApp\API\bin\Debug\net5.0\Microsoft.IdentityModel.Protocols.OpenIdConnect.dll
 D:\Udamly Projects\DatingApp\API\bin\Debug\net5.0\Microsoft.IdentityModel.Tokens.dll
-D:\Udamly Projects\DatingApp\API\bin\Debug\net5.0\Newtonsoft.Json.dll
 D:\Udamly Projects\DatingApp\API\bin\Debug\net5.0\System.Configuration.ConfigurationManager.dll
 D:\Udamly Projects\DatingApp\API\bin\Debug\net5.0\System.IdentityModel.Tokens.Jwt.dll
 D:\Udamly Projects\DatingApp\API\bin\Debug\net5.0\System.Runtime.Caching.dll
@@ -57,3 +56,4 @@ D:\Udamly Projects\DatingApp\API\bin\Debug\net5.0\runtimes\win\lib\netstandard2.
 D:\Udamly Projects\DatingApp\API\bin\Debug\net5.0\runtimes\win\lib\netstandard2.0\System.Security.Cryptography.ProtectedData.dll
 D:\Udamly Projects\DatingApp\API\bin\Debug\net5.0\Humanizer.dll
 D:\Udamly Projects\DatingApp\API\bin\Debug\net5.0\Microsoft.EntityFrameworkCore.Design.dll
+D:\Udamly Projects\DatingApp\api\bin\Debug\net5.0\Microsoft.AspNetCore.Authentication.JwtBearer.dll

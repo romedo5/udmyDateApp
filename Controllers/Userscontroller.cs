@@ -7,15 +7,13 @@ using API.Data;
 using API.Entities;
 using Microsoft.EntityFrameworkCore;
 using Microsoft.AspNetCore.Cors;
+using Microsoft.AspNetCore.Authorization;
 
 namespace API.Controllers
 {
-    [EnableCors]
-    [ApiController]
-    [Route("api/[controller]")]
-
     
-    public class Userscontroller : ControllerBase
+    
+    public class Userscontroller : BaseApicontroller
     {
 
 
@@ -26,11 +24,13 @@ namespace API.Controllers
         }
  
         [HttpGet]
+        [AllowAnonymous] 
         public async Task<ActionResult<IEnumerable<AppUsers>>> getAllUsers()
         {
             return await context.Users.ToListAsync();
         }
-
+       
+        [Authorize]
         [HttpGet("{Id}")]
         public async Task<ActionResult<AppUsers>> getUser(int id)
         {
